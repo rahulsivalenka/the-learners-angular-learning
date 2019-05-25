@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+:host:before {
+  content: attr(badge-text); // 'Test';
+  display: inline-block;
+  background: black;
+  color: white;
+}
+
+:host.danger {
+  background: red;
+}
